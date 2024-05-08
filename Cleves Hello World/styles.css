@@ -1,0 +1,69 @@
+/* Grundlegende Dark Mode Styles */
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: 'Gothic A1', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    color: #f0e6ff;
+}
+
+main {
+    padding: 20px;
+}
+
+.intro p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+img {
+    height: 150px;
+    filter: brightness(0.8);
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* Google Fonts Link einfügen */
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;700&display=swap');
+
+.mystic-button {
+    background-color: #330066;  /* Dunkles Violett */
+    color: #FFD700;             /* Goldener Text */
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'Gothic A1', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.mystic-button:hover {
+    background-color: #4d0099;  /* Ein helleres Violett */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.8);
+}
+
+.mystic-button:focus {
+    outline: none;
+    box-shadow: 0 0 12px #FFD700; /* Goldener Glanz um den Button */
+}
