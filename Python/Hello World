@@ -3,5 +3,9 @@ print ("I am here!")
 
 City = "Hamburg"
 Areacode = 22297
+name = "Wudu"
+
 print(City)
 print(Areacode)
+
+print(name)("Yaw")
